@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartWork AI — Turn Attention Into Growth</title>
+<meta name="description" content="SmartWork AI is a next-generation digital marketing agency by Vanshika Sehrawat — combining strategy, creative design, social media, advertising, SEO and AI-powered solutions to grow modern brands.">
+<meta property="og:title" content="SmartWork AI — Turn Attention Into Growth">
+<meta property="og:description" content="Digital marketing, creative design and AI-powered solutions for brands ready to grow.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Custom cursor glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">⚡</span>SmartWork<span class="accent">AI</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <canvas id="fieldCanvas"></canvas>
+  <div class="hero-glow hero-glow-a"></div>
+  <div class="hero-glow hero-glow-b"></div>
+
+  <div class="floating-icons" id="floatingIcons">
+    <div class="ficon fi-1" data-depth="0.03">📊</div>
+    <div class="ficon fi-2" data-depth="0.05">📈</div>
+    <div class="ficon fi-3" data-depth="0.02">💬</div>
+    <div class="ficon fi-4" data-depth="0.04">🎯</div>
+    <div class="ficon fi-5" data-depth="0.06">✉️</div>
+    <div class="ficon fi-6" data-depth="0.03">🔍</div>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow-line">Digital Marketing · Creative · AI</p>
+    <h1 class="hero-title">Turn Attention<br>Into <span class="accent-text">Growth.</span></h1>
+    <p class="hero-sub">SmartWork AI blends digital marketing, creative design, social media, advertising, SEO and AI-powered tools into one focused engine for building modern brands.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+      <a href="#services" class="btn btn-ghost">Explore Services</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span></span></div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual">
+      <div class="glass-card founder-card">
+        <div class="founder-avatar">VS</div>
+        <p class="founder-name">Vanshika Sehrawat</p>
+        <p class="founder-role">Founder, SmartWork AI</p>
+      </div>
+    </div>
+    <div class="about-copy">
+      <p class="section-kicker">About</p>
+      <h2>Marketing, run by someone who still touches every campaign.</h2>
+      <p>SmartWork AI is the digital marketing brand of Vanshika Sehrawat — built at the intersection of strategy, creative design and generative AI. No layers of account managers, no templated playbooks. Every brand gets a strategy shaped around how people actually discover, trust and buy today.</p>
+      <p>The work spans social media, SEO, paid advertising, content, email and AI-assisted creative — connected as one system instead of separate services stitched together.</p>
+      <div class="about-tags">
+        <span>Digital Marketing</span>
+        <span>Generative AI</span>
+        <span>Creative Design</span>
+        <span>Social Media</span>
+        <span>Content Strategy</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <p class="section-kicker center">Services</p>
+    <h2 class="center">Everything a modern brand needs to grow</h2>
+    <p class="section-lede center">One team across strategy, creative and execution — pick a lane, or hand over the whole engine.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Social Media Marketing</h3>
+        <p>Instagram &amp; Facebook marketing, content strategy, management, campaign planning, community engagement.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔍</div>
+        <h3>SEO</h3>
+        <p>On-page &amp; technical SEO, keyword strategy, local SEO, content optimization, search visibility.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎯</div>
+        <h3>Paid Advertising</h3>
+        <p>Meta &amp; Google Ads, campaign strategy, audience targeting, ad creatives, conversion optimization.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✍️</div>
+        <h3>Content Marketing</h3>
+        <p>Content strategy, copywriting, blog content, social content, brand storytelling.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📧</div>
+        <h3>Email Marketing</h3>
+        <p>Campaigns, newsletter strategy, automated sequences, lead nurturing, conversion-focused emails.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Graphic &amp; Creative Design</h3>
+        <p>Social designs, brand creatives, ad creatives, presentations, marketing materials.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✨</div>
+        <h3>AI-Powered Content</h3>
+        <p>AI image &amp; video creation, AI-assisted content, generative AI workflows.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Website &amp; Landing Pages</h3>
+        <p>Landing pages, business &amp; portfolio websites, conversion-focused, UI/UX-driven design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="work" id="work">
+  <div class="container">
+    <p class="section-kicker center">Work</p>
+    <h2 class="center">Selected projects</h2>
+    <p class="section-lede center">Placeholder projects below — swap these for real case studies any time.</p>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="social">Social Media</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="website">Website Design</button>
+      <button class="filter-btn" data-filter="ai-image">AI Images</button>
+      <button class="filter-btn" data-filter="ai-video">AI Videos</button>
+      <button class="filter-btn" data-filter="advertising">Advertising</button>
+      <button class="filter-btn" data-filter="campaign">Campaigns</button>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+      <div class="work-card" data-cat="social"><div class="work-thumb grad-1"></div><div class="work-info"><h3>Aura Skincare — Instagram Growth</h3><span>Social Media</span></div></div>
+      <div class="work-card" data-cat="branding"><div class="work-thumb grad-2"></div><div class="work-info"><h3>Nimbus Cafés — Brand Identity</h3><span>Branding</span></div></div>
+      <div class="work-card" data-cat="website"><div class="work-thumb grad-3"></div><div class="work-info"><h3>Voltique — Landing Page</h3><span>Website Design</span></div></div>
+      <div class="work-card" data-cat="ai-image"><div class="work-thumb grad-4"></div><div class="work-info"><h3>Lumen Jewelry — AI Product Art</h3><span>AI Images</span></div></div>
+      <div class="work-card" data-cat="ai-video"><div class="work-thumb grad-5"></div><div class="work-info"><h3>Pulse Fitness — AI Reel Series</h3><span>AI Videos</span></div></div>
+      <div class="work-card" data-cat="advertising"><div class="work-thumb grad-6"></div><div class="work-info"><h3>Orbit Eyewear — Meta Ads</h3><span>Advertising</span></div></div>
+      <div class="work-card" data-cat="campaign"><div class="work-thumb grad-1"></div><div class="work-info"><h3>Verve Foods — Launch Campaign</h3><span>Marketing Campaign</span></div></div>
+      <div class="work-card" data-cat="social"><div class="work-thumb grad-3"></div><div class="work-info"><h3>Studio Kite — Content System</h3><span>Social Media</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY SMARTWORK AI ===== -->
+<section class="why">
+  <div class="container">
+    <p class="section-kicker center">Why SmartWork AI</p>
+    <h2 class="center">Built for brands that want to be seen</h2>
+
+    <div class="stats-grid">
+      <div class="stat"><span class="stat-num" data-target="4.2" data-suffix="×">0</span><span class="stat-label">Average ad spend efficiency*</span></div>
+      <div class="stat"><span class="stat-num" data-target="120" data-suffix="+">0</span><span class="stat-label">Creative assets produced per month*</span></div>
+      <div class="stat"><span class="stat-num" data-target="30" data-suffix="+">0</span><span class="stat-label">Days to first campaign live*</span></div>
+      <div class="stat"><span class="stat-num" data-target="8" data-suffix="">0</span><span class="stat-label">Core service lines under one roof</span></div>
+    </div>
+    <p class="stats-note">*Illustrative figures — replace with your real numbers as projects complete.</p>
+
+    <div class="why-points">
+      <div class="why-point"><h3>AI-powered creativity</h3><p>Generative tools speed up ideation and production without losing a human point of view.</p></div>
+      <div class="why-point"><h3>Data-driven marketing</h3><p>Decisions are made from performance data, not guesswork.</p></div>
+      <div class="why-point"><h3>Customized strategy</h3><p>No recycled playbooks — every plan is built around your audience and goals.</p></div>
+      <div class="why-point"><h3>End-to-end execution</h3><p>Strategy, creative and campaign management, handled as one connected system.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="process" id="process">
+  <div class="container">
+    <p class="section-kicker center">Process</p>
+    <h2 class="center">How a project comes together</h2>
+
+    <div class="process-steps">
+      <div class="process-step">
+        <span class="process-num">01</span>
+        <h3>Discover</h3>
+        <p>Understand the brand, audience and goals.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">02</span>
+        <h3>Strategize</h3>
+        <p>Create a customized marketing strategy.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">03</span>
+        <h3>Create</h3>
+        <p>Develop content, creatives, campaigns and digital experiences.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">04</span>
+        <h3>Launch</h3>
+        <p>Launch campaigns and marketing activities.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">05</span>
+        <h3>Optimize</h3>
+        <p>Analyze performance and continuously improve.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials">
+  <div class="container">
+    <p class="section-kicker center">Testimonials</p>
+    <h2 class="center">What clients say (placeholder — swap in real quotes)</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Working with SmartWork AI felt like adding a strategist and a creative team in one — replace this with a real client quote."</p>
+        <div class="testimonial-author"><span class="t-avatar">A</span><div><strong>Client Name</strong><span>Role, Company</span></div></div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Our social presence finally felt consistent and intentional — replace this with a real client quote."</p>
+        <div class="testimonial-author"><span class="t-avatar">B</span><div><strong>Client Name</strong><span>Role, Company</span></div></div>
+      </div>
+      <div class="testimonial-card">
+        <p>"The AI-assisted creative work saved us weeks of production time — replace this with a real client quote."</p>
+        <div class="testimonial-author"><span class="t-avatar">C</span><div><strong>Client Name</strong><span>Role, Company</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container faq-container">
+    <p class="section-kicker center">FAQ</p>
+    <h2 class="center">Common questions</h2>
+
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q">What services does SmartWork AI provide?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Social media marketing, SEO, paid advertising, content marketing, email marketing, graphic and creative design, AI-powered content, and website/landing page design.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you work with small businesses?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes — projects are scoped around your size and stage, from a single service to a full growth engine.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you provide social media management?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes, including content strategy, posting, community engagement and campaign planning.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you create AI-generated content?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes — AI-assisted images, videos and content workflows, always refined with a human creative eye.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you manage advertising campaigns?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes, across Meta and Google Ads — strategy, targeting, creative and optimization.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can you design websites and landing pages?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes — conversion-focused landing pages and full business or portfolio websites.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How can I start a project?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Send a message through the contact form or WhatsApp, and we'll set up a short call to scope it out.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How can I contact Vanshika?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Via the contact form below, email, or WhatsApp — details are in the Contact section.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-copy">
+      <p class="section-kicker">Contact</p>
+      <h2>Ready to make your brand impossible to ignore?</h2>
+      <p class="contact-lede">Tell us a bit about your brand and what you're looking for — we'll get back to you within a day.</p>
+
+      <div class="contact-details">
+        <a href="mailto:vanshikasehrawat@gmail.com" class="contact-line"><span>✉️</span>vanshikasehrawat@gmail.com</a>
+        <a href="tel:+919773862736" class="contact-line"><span>📞</span>+91 97738 62736</a>
+        <a href="https://wa.me/919773862736?text=Hi%20Vanshika%2C%20I%27m%20interested%20in%20working%20with%20SmartWork%20AI.%20I%27d%20like%20to%20discuss%20a%20project." class="contact-line" target="_blank" rel="noopener"><span>💬</span>WhatsApp: +91 97738 62736</a>
+      </div>
+    </div>
+
+    <form class="contact-form glass-card" id="contactForm" novalidate>
+      <div class="form-row">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+      </div>
+      <div class="form-row">
+        <label>Phone<input type="tel" name="phone"></label>
+        <label>Business / Brand<input type="text" name="business"></label>
+      </div>
+      <label class="form-full">Service
+        <select name="service">
+          <option value="">Select a service</option>
+          <option>Social Media Marketing</option>
+          <option>SEO</option>
+          <option>Paid Advertising</option>
+          <option>Content Marketing</option>
+          <option>Email Marketing</option>
+          <option>Graphic & Creative Design</option>
+          <option>AI-Powered Content</option>
+          <option>Website & Landing Page Design</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label class="form-full">Message<textarea name="message" rows="4" required></textarea></label>
+      <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      <p class="form-status" id="formStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="brand"><span class="brand-mark">⚡</span>SmartWork<span class="accent">AI</span></a>
+      <p>Digital marketing, creative design and AI-powered solutions for brands ready to grow.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/919773862736" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="LinkedIn">LI</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Social Media</a>
+      <a href="#services">SEO</a>
+      <a href="#services">Paid Ads</a>
+      <a href="#services">AI Content</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:vanshikasehrawat@gmail.com">vanshikasehrawat@gmail.com</a>
+      <a href="tel:+919773862736">+91 97738 62736</a>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>© 2026 SmartWork AI. All rights reserved.</span>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+  </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a class="whatsapp-fab" href="https://wa.me/919773862736?text=Hi%20Vanshika%2C%20I%27m%20interested%20in%20working%20with%20SmartWork%20AI.%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
